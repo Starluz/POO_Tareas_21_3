@@ -17,6 +17,12 @@ public class ConstructorPlayer
     private int daño;
     
         //metodo Constructor
-    
+    public ConstructorPlayer(int id, string n, float vida, float vel)
+    {
+        this.PlayerId= id;
+        this.nombre= n;
+        this.vida= vida;
+        this.velocidad= vel;
+    }
     
 }
